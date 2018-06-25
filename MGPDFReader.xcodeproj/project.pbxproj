@@ -13,6 +13,19 @@
 		1710580520AED3E800D1DFDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1710580420AED3E800D1DFDD /* Assets.xcassets */; };
 		1710580820AED3E800D1DFDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1710580620AED3E800D1DFDD /* LaunchScreen.storyboard */; };
 		1710580B20AED3E800D1DFDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1710580A20AED3E800D1DFDD /* main.m */; };
+		17E53D3820B2784C00F29998 /* MGPDFContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E53D2720B2784C00F29998 /* MGPDFContentPage.m */; };
+		17E53D3920B2784C00F29998 /* MGPDFContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E53D2920B2784C00F29998 /* MGPDFContentTile.m */; };
+		17E53D3A20B2784C00F29998 /* MGPDFContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E53D2B20B2784C00F29998 /* MGPDFContentView.m */; };
+		17E53D3C20B2784C00F29998 /* MGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E53D2F20B2784C00F29998 /* MGPDFDocument.m */; };
+		17E53D3D20B2784C00F29998 /* MGPDFDocumentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E53D3120B2784C00F29998 /* MGPDFDocumentManager.m */; };
+		17E53D3E20B2784C00F29998 /* MGPDFPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E53D3320B2784C00F29998 /* MGPDFPagesView.m */; };
+		17E53D4320B29CD800F29998 /* MGPDFReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E53D4220B29CD800F29998 /* MGPDFReaderView.m */; };
+		17E53D4620B2A5E600F29998 /* MGPDFZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E53D4520B2A5E600F29998 /* MGPDFZoomView.m */; };
+		17E53D4A20B2B18B00F29998 /* MGPDFReaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E53D4820B2B18B00F29998 /* MGPDFReaderVC.m */; };
+		17E53D4B20B2B18B00F29998 /* MGPDFReaderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E53D4920B2B18B00F29998 /* MGPDFReaderVC.xib */; };
+		17E53D4D20B2B20700F29998 /* 高性能iOS-应用开发-中文版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 17E53D4C20B2B20700F29998 /* 高性能iOS-应用开发-中文版.pdf */; };
+		17E53D5420B3B70400F29998 /* STA20180522101641440.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 17E53D5320B3B70400F29998 /* STA20180522101641440.pdf */; };
+		17E53D5820B4038700F29998 /* compoundSealAutoPdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 17E53D5720B4038700F29998 /* compoundSealAutoPdf.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,28 @@
 		1710580720AED3E800D1DFDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1710580920AED3E800D1DFDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1710580A20AED3E800D1DFDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17E53D2620B2784C00F29998 /* MGPDFContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPDFContentPage.h; sourceTree = "<group>"; };
+		17E53D2720B2784C00F29998 /* MGPDFContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPDFContentPage.m; sourceTree = "<group>"; };
+		17E53D2820B2784C00F29998 /* MGPDFContentTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPDFContentTile.h; sourceTree = "<group>"; };
+		17E53D2920B2784C00F29998 /* MGPDFContentTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPDFContentTile.m; sourceTree = "<group>"; };
+		17E53D2A20B2784C00F29998 /* MGPDFContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPDFContentView.h; sourceTree = "<group>"; };
+		17E53D2B20B2784C00F29998 /* MGPDFContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPDFContentView.m; sourceTree = "<group>"; };
+		17E53D2E20B2784C00F29998 /* MGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPDFDocument.h; sourceTree = "<group>"; };
+		17E53D2F20B2784C00F29998 /* MGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPDFDocument.m; sourceTree = "<group>"; };
+		17E53D3020B2784C00F29998 /* MGPDFDocumentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPDFDocumentManager.h; sourceTree = "<group>"; };
+		17E53D3120B2784C00F29998 /* MGPDFDocumentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPDFDocumentManager.m; sourceTree = "<group>"; };
+		17E53D3220B2784C00F29998 /* MGPDFPagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPDFPagesView.h; sourceTree = "<group>"; };
+		17E53D3320B2784C00F29998 /* MGPDFPagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPDFPagesView.m; sourceTree = "<group>"; };
+		17E53D4120B29CD800F29998 /* MGPDFReaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGPDFReaderView.h; sourceTree = "<group>"; };
+		17E53D4220B29CD800F29998 /* MGPDFReaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGPDFReaderView.m; sourceTree = "<group>"; };
+		17E53D4420B2A5E600F29998 /* MGPDFZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGPDFZoomView.h; sourceTree = "<group>"; };
+		17E53D4520B2A5E600F29998 /* MGPDFZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGPDFZoomView.m; sourceTree = "<group>"; };
+		17E53D4720B2B18B00F29998 /* MGPDFReaderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGPDFReaderVC.h; sourceTree = "<group>"; };
+		17E53D4820B2B18B00F29998 /* MGPDFReaderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGPDFReaderVC.m; sourceTree = "<group>"; };
+		17E53D4920B2B18B00F29998 /* MGPDFReaderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MGPDFReaderVC.xib; sourceTree = "<group>"; };
+		17E53D4C20B2B20700F29998 /* 高性能iOS-应用开发-中文版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "高性能iOS-应用开发-中文版.pdf"; sourceTree = "<group>"; };
+		17E53D5320B3B70400F29998 /* STA20180522101641440.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = STA20180522101641440.pdf; sourceTree = "<group>"; };
+		17E53D5720B4038700F29998 /* compoundSealAutoPdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = compoundSealAutoPdf.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +93,45 @@
 		171057FA20AED3E800D1DFDD /* MGPDFReader */ = {
 			isa = PBXGroup;
 			children = (
+				17E53D2520B2784C00F29998 /* MGPDFReader */,
 				171057FB20AED3E800D1DFDD /* AppDelegate.h */,
 				171057FC20AED3E800D1DFDD /* AppDelegate.m */,
 				171057FE20AED3E800D1DFDD /* ViewController.h */,
 				171057FF20AED3E800D1DFDD /* ViewController.m */,
 				1710580120AED3E800D1DFDD /* Main.storyboard */,
+				17E53D4720B2B18B00F29998 /* MGPDFReaderVC.h */,
+				17E53D4820B2B18B00F29998 /* MGPDFReaderVC.m */,
+				17E53D4920B2B18B00F29998 /* MGPDFReaderVC.xib */,
+				17E53D4C20B2B20700F29998 /* 高性能iOS-应用开发-中文版.pdf */,
+				17E53D5320B3B70400F29998 /* STA20180522101641440.pdf */,
+				17E53D5720B4038700F29998 /* compoundSealAutoPdf.pdf */,
 				1710580420AED3E800D1DFDD /* Assets.xcassets */,
 				1710580620AED3E800D1DFDD /* LaunchScreen.storyboard */,
 				1710580920AED3E800D1DFDD /* Info.plist */,
 				1710580A20AED3E800D1DFDD /* main.m */,
+			);
+			path = MGPDFReader;
+			sourceTree = "<group>";
+		};
+		17E53D2520B2784C00F29998 /* MGPDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				17E53D4120B29CD800F29998 /* MGPDFReaderView.h */,
+				17E53D4220B29CD800F29998 /* MGPDFReaderView.m */,
+				17E53D2A20B2784C00F29998 /* MGPDFContentView.h */,
+				17E53D2B20B2784C00F29998 /* MGPDFContentView.m */,
+				17E53D2620B2784C00F29998 /* MGPDFContentPage.h */,
+				17E53D2720B2784C00F29998 /* MGPDFContentPage.m */,
+				17E53D2820B2784C00F29998 /* MGPDFContentTile.h */,
+				17E53D2920B2784C00F29998 /* MGPDFContentTile.m */,
+				17E53D2E20B2784C00F29998 /* MGPDFDocument.h */,
+				17E53D2F20B2784C00F29998 /* MGPDFDocument.m */,
+				17E53D3020B2784C00F29998 /* MGPDFDocumentManager.h */,
+				17E53D3120B2784C00F29998 /* MGPDFDocumentManager.m */,
+				17E53D3220B2784C00F29998 /* MGPDFPagesView.h */,
+				17E53D3320B2784C00F29998 /* MGPDFPagesView.m */,
+				17E53D4420B2A5E600F29998 /* MGPDFZoomView.h */,
+				17E53D4520B2A5E600F29998 /* MGPDFZoomView.m */,
 			);
 			path = MGPDFReader;
 			sourceTree = "<group>";
@@ -130,8 +195,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1710580820AED3E800D1DFDD /* LaunchScreen.storyboard in Resources */,
+				17E53D5420B3B70400F29998 /* STA20180522101641440.pdf in Resources */,
 				1710580520AED3E800D1DFDD /* Assets.xcassets in Resources */,
+				17E53D5820B4038700F29998 /* compoundSealAutoPdf.pdf in Resources */,
+				17E53D4D20B2B20700F29998 /* 高性能iOS-应用开发-中文版.pdf in Resources */,
 				1710580320AED3E800D1DFDD /* Main.storyboard in Resources */,
+				17E53D4B20B2B18B00F29998 /* MGPDFReaderVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +211,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E53D4320B29CD800F29998 /* MGPDFReaderView.m in Sources */,
+				17E53D3E20B2784C00F29998 /* MGPDFPagesView.m in Sources */,
+				17E53D3920B2784C00F29998 /* MGPDFContentTile.m in Sources */,
+				17E53D3820B2784C00F29998 /* MGPDFContentPage.m in Sources */,
 				1710580020AED3E800D1DFDD /* ViewController.m in Sources */,
 				1710580B20AED3E800D1DFDD /* main.m in Sources */,
+				17E53D3D20B2784C00F29998 /* MGPDFDocumentManager.m in Sources */,
+				17E53D3C20B2784C00F29998 /* MGPDFDocument.m in Sources */,
+				17E53D3A20B2784C00F29998 /* MGPDFContentView.m in Sources */,
+				17E53D4620B2A5E600F29998 /* MGPDFZoomView.m in Sources */,
+				17E53D4A20B2B18B00F29998 /* MGPDFReaderVC.m in Sources */,
 				171057FD20AED3E800D1DFDD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MGPDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mige.MGPDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MGPDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mige.MGPDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";

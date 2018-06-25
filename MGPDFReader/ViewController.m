@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MGPDFReaderVC.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,10 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)onReusableViewAction:(id)sender {
+    MGPDFReaderVC *vc = [[MGPDFReaderVC alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
